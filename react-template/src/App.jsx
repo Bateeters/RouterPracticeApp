@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Link } from "react-router-dom";
 
 function App() {
   return(
@@ -11,7 +8,7 @@ function App() {
       <nav>
         <ul>
           <li>
-            <a href="profile">Profile page</a>
+            <Link to="profile">Profile page</Link>
           </li>
         </ul>
       </nav>
